@@ -13,11 +13,11 @@ export const UserRegisterPage  = () => {
                 sx={{ mb: 1, pt:10 }}>
                 <Card style={{maxWidth:450, padding: "20px 5px ", margin: "0 auto" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5">
+                        <Typography gutterBottom variant="h5" sx={{pb:2}}>
                             Registro de Usuarios
                         </Typography>
                         <form>
-                            <Grid container spacing={1}>
+                            <Grid container spacing={1} sx={{pb:2}}>
                                 <Grid xs={12} sm={6} item>
                                 <TextField
                                     placeholder="Enter first name"
